@@ -3,8 +3,8 @@
 
 #include "arduino_secrets.h" 
 ///////please enter your sensitive data in the Secret tab/arduino_secrets.h
-char ssid[] = "FiOS-VTAUG";        // your network SSID (name)
-char pass[] = "pass";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = SECRET_SSID;        // your network SSID (name)
+char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 int status = WL_IDLE_STATUS;     // the WiFi radio's status
 
 IPAddress ip(192,168,1,212);
